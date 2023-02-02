@@ -1,0 +1,97 @@
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  /* Color tipografía */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* 0.5 de transparencia */
+}
+
+.btn-event {
+  background-color: #00ea98;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+.btn-concertify {
+  background-color: #00aaef;
+}
+
+.btn-concertify:hover {
+  opacity: 90%;
+}
+
+.carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+  filter: grayscale(50%)
+}
+
+
+.badge-rock {
+  background-color: #191919;
+  padding: 0.4rem;
+  margin-left: 0.2rem;
+  border: black 0.5px solid;
+  border-radius: 5px;
+}
+
+.badge-indie {
+  background-color: rgb(236, 154, 3);
+  padding: 0.4rem;
+  border: black 0.5px solid;
+  border-radius: 5px;
+}
+
+.badge-fest {
+  background-color: #ff6600;
+  padding: 0.4rem;
+  border: black 0.5px solid;
+  border-radius: 5px;
+}
+
+.badge-latino {
+  background-color: rgb(0, 145, 43);
+  padding: 0.4rem;
+  border: black 0.5px solid;
+  border-radius: 5px;
+}
+
+.card {
+  width: 25rem;
+  height: 45rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 34rem;
+}
+
+
+
+#footer {
+  background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+}
+
+#footer a {
+  color: #FFFF;
+}
+
+.container-text {
+  color: white;
+  cursor: pointer;
+}
+
+.container-text:hover {
+  opacity: 80%;
+}
