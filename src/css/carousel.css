@@ -67,6 +67,10 @@
   border-radius: 5px;
 }
 
+.card {
+  width: 25rem;
+  height: 45rem;
+}
 
 .card-img-top {
   width: 100%;
