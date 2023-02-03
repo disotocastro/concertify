@@ -9,9 +9,7 @@
   left: 0;
   right: 0;
   color: white;
-  /* Color tipografía */
   background-color: rgba(0, 0, 0, 0.5);
-  /* 0.5 de transparencia */
 }
 
 .btn-event {
@@ -21,10 +19,6 @@
 #carousel .overlay .container,
 #carousel .overlay .row {
   height: 100%;
-}
-
-.btn-concertify {
-  background-color: #00aaef;
 }
 
 .btn-concertify:hover {
@@ -37,6 +31,27 @@
   filter: grayscale(50%)
 }
 
+.nav-link:hover {
+  color: #00ef92;
+}
+
+
+.btn-prox {
+  background-color: #00ea98;
+}
+
+.btn-prox:hover {
+  background-color: #00ea98;
+  opacity: 90%;
+  color: black;
+}
+
+/* Badges */
+
+.card-img-top {
+  width: 100%;
+  height: 34rem;
+}
 
 .badge-rock {
   background-color: #191919;
@@ -67,18 +82,8 @@
   border-radius: 5px;
 }
 
-.card {
-  width: 25rem;
-  height: 45rem;
-}
 
-.card-img-top {
-  width: 100%;
-  height: 34rem;
-}
-
-
-
+/* Footer */
 #footer {
   background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
 }
