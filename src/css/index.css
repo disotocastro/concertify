@@ -12,6 +12,11 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.btn-contact {
+  text-decoration: none;
+  color: black;
+}
+
 .btn-event {
   background-color: #00ea98;
 }
