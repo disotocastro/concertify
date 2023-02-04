@@ -1,0 +1,9 @@
+.error {
+  border: red solid 2px;
+  border-radius: 5px;
+}
+
+.correcto {
+  border: #00ea98 solid 2px;
+  border-radius: 5px;
+}
