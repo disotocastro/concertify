@@ -14,7 +14,7 @@
 
 .btn-contact {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .btn-event {
@@ -51,10 +51,9 @@
   color: black;
 }
 
-
-
-
-
+.nav-item:hover {
+  color: #00ea98;
+}
 
 
 
