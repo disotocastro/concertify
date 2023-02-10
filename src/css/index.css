@@ -1,8 +1,8 @@
-#carousel {
+#carouselExampleSlidesOnly {
   position: relative;
 }
 
-#carousel .overlay {
+#carouselExampleSlidesOnly .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -21,8 +21,8 @@
   background-color: #00ea98;
 }
 
-#carousel .overlay .container,
-#carousel .overlay .row {
+#carouselExampleSlidesOnly .overlay .container,
+#carouselExampleSlidesOnly .overlay .row {
   height: 100%;
 }
 
@@ -50,6 +50,28 @@
   opacity: 90%;
   color: black;
 }
+
+
+
+
+
+
+
+
+
+.card {
+  position: relative;
+}
+
+#main-event img {
+  width: 100%;
+}
+
+#main-event {
+  background-color: #343a40;
+  color: white;
+}
+
 
 /* Badges */
 
